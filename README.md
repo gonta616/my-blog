@@ -24,6 +24,14 @@ pnpm create next-app --example with-jest with-jest-app
 
 ## Run Jest Tests
 
+### テスト戦略
+
+#### E2E 
+
+
+#### ロジック
+jest
+
 ```bash
 npm test
 ```
