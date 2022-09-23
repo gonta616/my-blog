@@ -2,6 +2,8 @@ import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 
+import { Button } from '@/components/Button'
+
 import styles from '@/pages/index.module.css'
 
 export default function Home() {
@@ -42,6 +44,13 @@ export default function Home() {
             <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
           </a>
         </div>
+        <Button
+          outlined={false}
+          size={'small'}
+          onClick={() => document.location.href = "https://reactjs.org"}
+        >
+          Submit
+        </Button>
       </main>
 
       <footer className={styles.footer}>
